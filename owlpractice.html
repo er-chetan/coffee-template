@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Slider</title>
+
+    <link rel="stylesheet" href="./owl-slider/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-slider/assets/owl.theme.default.min.css">
+    
+
+    <style>
+        .owl-item>img{
+            height: 580px;
+         }
+        .owl-prev{
+            background-color: black !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .owl-next{
+            background-color: black !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+             
+        }
+    </style>
+</head>
+<body>
+    <div class="owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+                <div class="owl-item">
+                    <img src="./image/banner-bg.png" alt="">
+                </div>
+                <div class="owl-item">
+                    <img src="./image/about-img.png" alt="">
+                </div>
+                <div class="owl-item">
+                    <img src="./image/img-8.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="owl-nav">
+            <div class="owl-prev">prev</div>
+            <div class="owl-next">next</div>
+        </div>
+        <div class="owl-dots">
+            <div class="owl-dot active"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+            <div class="owl-dot"><span></span></div>
+        </div> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./owl-slider/owl.carousel.min.js"></script>
+
+
+    <script>
+        $('.owl-carousel ').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay: true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+

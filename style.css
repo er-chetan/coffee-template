@@ -1,0 +1,131 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Roboto', sans-serif,'poppins';
+    
+}
+
+ 
+
+.abouthead{
+    color:#F76D37;
+}
+
+.services{
+    background-image: url(image/services-bg.png);
+     
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.servicesicon{
+    background-color: #F76D37;
+    text-align: center;
+}
+
+.servicesicon>img{
+    height: 50px;
+    width: 50px;
+}
+ 
+.aft{
+    display: none;
+    
+}
+
+.servicesicon:hover{
+    background-color: white;
+    color: black;
+}
+
+ 
+
+.servicesicon:hover .aft{
+    display: block;
+}
+ 
+
+.empty1{
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    padding-bottom: 160px;
+}
+
+.attach{
+    margin-top: -170px;
+    padding: 0px 20px;
+    font-family: 'Poppins';
+}
+
+.empty2{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+       
+}
+
+.bottombutton{
+    background-color: #F76D37;
+}
+
+.info{
+    background-image: url(./image/img-9.png);
+}
+ 
+
+.sentbutton{
+    background-color: #d33a11;
+    
+}
+
+.dummy{
+    float: left;
+    width: 30%;
+}
+
+.menu>a:hover{
+    color: #d33a11 !important;
+}
+
+.contact:hover{
+    color: #d33a11 !important;
+}
+.slider{
+    overflow: hidden !important;
+}
+.owl-prev{
+    background-color: black !important;
+    color: white !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.owl-next{
+    background-color: black !important;
+    color: white !important;
+    width: 30px !important;
+    height: 30px !important;
+     
+}
+
+.owl-item1{
+    padding: 100px;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./image/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+
+}
+
+.owl-item2{
+    background-image: url(./image/banner-bg.png);
+}
+
+.owl-item3{
+    background-image: url(./image/banner-bg.png);
+}
+
+ 

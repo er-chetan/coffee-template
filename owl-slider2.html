@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Slider 2</title>
+
+    <link rel="stylesheet" href="./owl-slider/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl-slider/assets/owl.theme.default.min.css">
+    
+
+    <style>
+        *{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Roboto', sans-serif,'poppins';
+}
+         
+        .owl-prev{
+            background-color: black !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .owl-next{
+            background-color: black !important;
+            color: white !important;
+            width: 30px !important;
+            height: 30px !important;
+             
+        }
+        
+        .owl-item1{
+            padding: 40px;
+            width: 100vw;
+            height: 60vh;
+            background-image: url(./image/banner-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .owl-item2{
+            padding: 40px;
+            width: 100vw;
+            height: 60vh;
+            background-image: url(./image/banner-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .owl-item3{
+            padding: 40px;
+            width: 100vw;
+            height: 60vh;
+            background-image: url(./image/banner-bg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="owl-carousel owl-theme owl-loaded last">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+                <div class="owl-item owl-item1">
+                    <h1 class="display-4 text-black ">Outstsanding</h1>
+                    <h1 class="text-white display-3 fw-bold">COOFEE SHOP</h1>
+                    <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id incidunt
+                        dolore possimus.brt Nesciunt reiciendis sunt ex labore minus architecto ut excepturi </p>
+                    <button class="btn px-4 text-white border-none rounded-0 bg-dark ">Learn more</button>
+                </div>
+                <div class="owl-item owl-item2">
+                    <h1 class="display-4 text-black ">Outstsanding</h1>
+                    <h1 class="text-white display-3 fw-bold">COOFEE SHOP</h1>
+                    <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id incidunt
+                        dolore possimus.brt Nesciunt reiciendis sunt ex labore minus architecto ut excepturi </p>
+                    <button class="btn px-4 text-white border-none rounded-0 bg-dark ">Learn more</button>
+                </div>
+                <div class="owl-item owl-item3">
+                    <h1 class="display-4 text-black ">Outstsanding</h1>
+                <h1 class="text-white display-3 fw-bold">COOFEE SHOP</h1>
+                <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum id incidunt
+                    dolore possimus.brt Nesciunt reiciendis sunt ex labore minus architecto ut excepturi </p>
+                <button class="btn px-4 text-white border-none rounded-0 bg-dark ">Learn more</button>
+                </div>
+            </div>
+        </div>
+         
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./owl-slider/owl.carousel.min.js"></script>
+
+
+    <script>
+        $('.last').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay: true,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+
